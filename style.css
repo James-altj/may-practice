@@ -1,0 +1,69 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(./background\ pic.jpg), linear-gradient(90deg,#c9ce87, #d6e417);
+    background-size: cover;
+    background-color: linear-gradient(90deg,#c9ce87, #d6e417);
+}
+#header .logo{
+    color: red;
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#main_content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+}
+#main_content .cta p{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+#main_content .cta button{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #d6e417;
+    background-color: #d6e417;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_content .cta button a{
+    text-decoration: none;
+    color: red;
+}
+#main_content .cta button a:hover{
+    color: blue;
+    background-color: tomato;
+    border-color: tomato;
+}
+
+#fruit_section{
+    top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fruit_section ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+
+}
